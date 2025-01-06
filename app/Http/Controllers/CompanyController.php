@@ -23,6 +23,7 @@ class CompanyController extends Controller
 
     public function store(StoreCompanyRequest $request)
     {
+        dd($request->all());
         $company = Company::create($request->validated());
         return redirect()->route('companies.show', $company)
             ->with('success', 'Company created successfully');

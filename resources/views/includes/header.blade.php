@@ -214,73 +214,6 @@
         </div>
         <div class="app-header-right">
             <div class="header-dots">
-{{--                <div class="dropdown">--}}
-{{--                    <button type="button" aria-haspopup="true" aria-expanded="false"--}}
-{{--                            data-bs-toggle="dropdown" class="p-0 me-2 btn btn-link">--}}
-{{--                                    <span class="icon-wrapper icon-wrapper-alt rounded-circle">--}}
-{{--                                        <span class="icon-wrapper-bg bg-primary"></span>--}}
-{{--                                        <i class="icon text-primary ion-android-apps"></i>--}}
-{{--                                    </span>--}}
-{{--                    </button>--}}
-{{--                    <div tabindex="-1" role="menu" aria-hidden="true"--}}
-{{--                         class="dropdown-menu-xl rm-pointers dropdown-menu dropdown-menu-right">--}}
-{{--                        <div class="dropdown-menu-header">--}}
-{{--                            <div class="dropdown-menu-header-inner bg-plum-plate">--}}
-{{--                                <div class="menu-header-image" style="background-image: url('architectui/images/dropdown-header/abstract4.jpg');"></div>--}}
-{{--                                <div class="menu-header-content text-white">--}}
-{{--                                    <h5 class="menu-header-title">Grid Dashboard</h5>--}}
-{{--                                    <h6 class="menu-header-subtitle">Easy grid navigation inside dropdowns</h6>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <div class="grid-menu grid-menu-xl grid-menu-3col">--}}
-{{--                            <div class="g-0 row">--}}
-{{--                                <div class="col-sm-6 col-xl-4">--}}
-{{--                                    <button class="btn-icon-vertical btn-square btn-transition btn btn-outline-link">--}}
-{{--                                        <i class="pe-7s-world icon-gradient bg-night-fade btn-icon-wrapper btn-icon-lg mb-3"></i>--}}
-{{--                                        Automation--}}
-{{--                                    </button>--}}
-{{--                                </div>--}}
-{{--                                <div class="col-sm-6 col-xl-4">--}}
-{{--                                    <button class="btn-icon-vertical btn-square btn-transition btn btn-outline-link">--}}
-{{--                                        <i class="pe-7s-piggy icon-gradient bg-night-fade btn-icon-wrapper btn-icon-lg mb-3"></i>--}}
-{{--                                        Reports--}}
-{{--                                    </button>--}}
-{{--                                </div>--}}
-{{--                                <div class="col-sm-6 col-xl-4">--}}
-{{--                                    <button class="btn-icon-vertical btn-square btn-transition btn btn-outline-link">--}}
-{{--                                        <i class="pe-7s-config icon-gradient bg-night-fade btn-icon-wrapper btn-icon-lg mb-3"></i>--}}
-{{--                                        Settings--}}
-{{--                                    </button>--}}
-{{--                                </div>--}}
-{{--                                <div class="col-sm-6 col-xl-4">--}}
-{{--                                    <button class="btn-icon-vertical btn-square btn-transition btn btn-outline-link">--}}
-{{--                                        <i class="pe-7s-browser icon-gradient bg-night-fade btn-icon-wrapper btn-icon-lg mb-3"></i>--}}
-{{--                                        Content--}}
-{{--                                    </button>--}}
-{{--                                </div>--}}
-{{--                                <div class="col-sm-6 col-xl-4">--}}
-{{--                                    <button class="btn-icon-vertical btn-square btn-transition btn btn-outline-link">--}}
-{{--                                        <i class="pe-7s-hourglass icon-gradient bg-night-fade btn-icon-wrapper btn-icon-lg mb-3"></i>--}}
-{{--                                        Activity--}}
-{{--                                    </button>--}}
-{{--                                </div>--}}
-{{--                                <div class="col-sm-6 col-xl-4">--}}
-{{--                                    <button class="btn-icon-vertical btn-square btn-transition btn btn-outline-link">--}}
-{{--                                        <i class="pe-7s-world icon-gradient bg-night-fade btn-icon-wrapper btn-icon-lg mb-3"></i>--}}
-{{--                                        Contacts--}}
-{{--                                    </button>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <ul class="nav flex-column">--}}
-{{--                            <li class="nav-item-divider nav-item"></li>--}}
-{{--                            <li class="nav-item-btn text-center nav-item">--}}
-{{--                                <button class="btn-shadow btn btn-primary btn-sm">Follow-ups</button>--}}
-{{--                            </li>--}}
-{{--                        </ul>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
                 <div class="dropdown">
                     <button type="button" aria-haspopup="true" aria-expanded="false"
                             data-bs-toggle="dropdown" class="p-0 me-2 btn btn-link">
@@ -355,64 +288,6 @@
                                                                 <h4 class="timeline-title">
                                                                     Build the production release
                                                                     <span class="badge bg-danger ms-2">NEW</span>
-                                                                </h4>
-                                                                <span class="vertical-timeline-element-date"></span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="vertical-timeline-item dot-primary vertical-timeline-element">
-                                                        <div>
-                                                            <span class="vertical-timeline-element-icon bounce-in"></span>
-                                                            <div class="vertical-timeline-element-content bounce-in">
-                                                                <h4 class="timeline-title">
-                                                                    Something not important
-                                                                    <div class="avatar-wrapper mt-2 avatar-wrapper-overlap">
-                                                                        <div class="avatar-icon-wrapper avatar-icon-sm">
-                                                                            <div class="avatar-icon">
-                                                                                <img src="architectui/images/avatars/1.jpg" alt="">
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="avatar-icon-wrapper avatar-icon-sm">
-                                                                            <div class="avatar-icon">
-                                                                                <img src="architectui/images/avatars/2.jpg" alt="">
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="avatar-icon-wrapper avatar-icon-sm">
-                                                                            <div class="avatar-icon">
-                                                                                <img src="images/avatars/3.jpg" alt="">
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="avatar-icon-wrapper avatar-icon-sm">
-                                                                            <div class="avatar-icon">
-                                                                                <img src="architectui/images/avatars/4.jpg" alt="">
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="avatar-icon-wrapper avatar-icon-sm">
-                                                                            <div class="avatar-icon">
-                                                                                <img src="architectui/images/avatars/5.jpg" alt="">
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="avatar-icon-wrapper avatar-icon-sm">
-                                                                            <div class="avatar-icon">
-                                                                                <img src="architectui/images/avatars/9.jpg" alt="">
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="avatar-icon-wrapper avatar-icon-sm">
-                                                                            <div class="avatar-icon">
-                                                                                <img src="architectui/images/avatars/7.jpg" alt="">
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="avatar-icon-wrapper avatar-icon-sm">
-                                                                            <div class="avatar-icon">
-                                                                                <img src="architectui/images/avatars/8.jpg" alt="">
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="avatar-icon-wrapper avatar-icon-sm avatar-icon-add">
-                                                                            <div class="avatar-icon">
-                                                                                <i>+</i>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
                                                                 </h4>
                                                                 <span class="vertical-timeline-element-date"></span>
                                                             </div>
@@ -674,59 +549,7 @@
                         </button>
                     </div>
                 </div>
-{{--                <div class="dropdown">--}}
-{{--                    <button type="button" aria-haspopup="true" data-bs-toggle="dropdown" data-bs-placement="bottom"--}}
-{{--                            title="Tooltip on bottom" aria-expanded="false" class="p-0 btn btn-link dd-chart-btn">--}}
-{{--                                    <span class="icon-wrapper icon-wrapper-alt rounded-circle">--}}
-{{--                                        <span class="icon-wrapper-bg bg-success"></span>--}}
-{{--                                        <i class="icon text-success ion-ios-analytics"></i>--}}
-{{--                                    </span>--}}
-{{--                    </button>--}}
-{{--                    <div tabindex="-1" role="menu" aria-hidden="true"--}}
-{{--                         class="dropdown-menu-xl rm-pointers dropdown-menu dropdown-menu-right">--}}
-{{--                        <div class="dropdown-menu-header">--}}
-{{--                            <div class="dropdown-menu-header-inner bg-premium-dark">--}}
-{{--                                <div class="menu-header-image" style="background-image: url('architectui/images/dropdown-header/abstract4.jpg');"></div>--}}
-{{--                                <div class="menu-header-content text-white">--}}
-{{--                                    <h5 class="menu-header-title">Users Online</h5>--}}
-{{--                                    <h6 class="menu-header-subtitle">Recent Account Activity Overview</h6>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <div class="widget-chart">--}}
-{{--                            <div class="widget-chart-content">--}}
-{{--                                <div class="icon-wrapper rounded-circle">--}}
-{{--                                    <div class="icon-wrapper-bg opacity-9 bg-focus"></div>--}}
-{{--                                    <i class="lnr-users text-white"></i>--}}
-{{--                                </div>--}}
-{{--                                <div class="widget-numbers">--}}
-{{--                                    <span>344k</span>--}}
-{{--                                </div>--}}
-{{--                                <div class="widget-subheading pt-2">--}}
-{{--                                    Profile views since last login--}}
-{{--                                </div>--}}
-{{--                                <div class="widget-description text-danger">--}}
-{{--                                                <span class="pe-1">--}}
-{{--                                                    <span>176%</span>--}}
-{{--                                                </span>--}}
-{{--                                    <i class="fa fa-arrow-left"></i>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                            <div class="widget-chart-wrapper">--}}
-{{--                                <div id="dashboard-sparkline-carousel-3-pop"></div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <ul class="nav flex-column">--}}
-{{--                            <li class="nav-item-divider mt-0 nav-item"></li>--}}
-{{--                            <li class="nav-item-btn text-center nav-item">--}}
-{{--                                <button class="btn-shine btn-wide btn-pill btn btn-warning btn-sm">--}}
-{{--                                    <i class="fa fa-cog fa-spin me-2"></i>--}}
-{{--                                    View Details--}}
-{{--                                </button>--}}
-{{--                            </li>--}}
-{{--                        </ul>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
+
             </div>
             <div class="header-btn-lg pe-0">
                 <div class="widget-content p-0">
@@ -734,7 +557,7 @@
                         <div class="widget-content-left">
                             <div class="btn-group">
                                 <a data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="p-0 btn">
-                                    <img width="42" class="rounded-circle" src="{{ asset('architectui/images/avatars/1.jpg') }}" alt="">
+                                    <img width="42" class="rounded-circle" src="{{ Auth::user()->profile_photo_url }}" alt="{{ Auth::user()->name }}" />
                                     <i class="fa fa-angle-down ms-2 opacity-8"></i>
                                 </a>
                                 <div tabindex="-1" role="menu" aria-hidden="true"
@@ -746,92 +569,54 @@
                                                 <div class="widget-content p-0">
                                                     <div class="widget-content-wrapper">
                                                         <div class="widget-content-left me-3">
-                                                            <img width="42" class="rounded-circle"
-                                                                 src="images/avatars/1.jpg" alt="">
+
+                                                            <img width="42" class="rounded-circle" src="{{ Auth::user()->profile_photo_url }}" alt="{{ Auth::user()->name }}" />
+
                                                         </div>
                                                         <div class="widget-content-left">
-                                                            <div class="widget-heading">Alina Mcloughlin</div>
-                                                            <div class="widget-subheading opacity-8">A short profile description</div>
+                                                            <div class="widget-heading">{{ Auth::user()->name }}</div>
+                                                            <div class="widget-subheading opacity-8">
+                                                                A short profile description
+
+                                                                {{ Auth::user()->email }}
+                                                            </div>
                                                         </div>
                                                         <div class="widget-content-right me-2">
-                                                            <button class="btn-pill btn-shadow btn-shine btn btn-focus">Logout</button>
+
+                                                            <form action="{{ route('logout') }}" method="POST">
+                                                                @csrf
+                                                                <button class="btn-pill btn-shadow btn-shine btn btn-focus">Logout</button>
+                                                            </form>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="scroll-area-xs" style="height: 150px;">
+                                    <div class="scroll-area-xs" style="height: 120px;">
                                         <div class="scrollbar-container ps">
                                             <ul class="nav flex-column">
-                                                <li class="nav-item-header nav-item">Activity</li>
-                                                <li class="nav-item">
-                                                    <a href="javascript:void(0);" class="nav-link">
-                                                        Chat
-                                                        <div class="ms-auto badge rounded-pill bg-info">8</div>
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="javascript:void(0);" class="nav-link">Recover Password</a>
-                                                </li>
                                                 <li class="nav-item-header nav-item">
                                                     My Account
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="javascript:void(0);" class="nav-link">
-                                                        Settings
-                                                        <div class="ms-auto badge bg-success">New</div>
-                                                    </a>
+                                                    <a href="{{ route('profile.show') }}" class="nav-link">Profile</a>
                                                 </li>
-                                                <li class="nav-item">
-                                                    <a href="javascript:void(0);" class="nav-link">
-                                                        Messages
-                                                        <div class="ms-auto badge bg-warning">512</div>
-                                                    </a>
-                                                </li>
+
+
                                                 <li class="nav-item">
                                                     <a href="javascript:void(0);" class="nav-link">Logs</a>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <ul class="nav flex-column">
-                                        <li class="nav-item-divider mb-0 nav-item"></li>
-                                    </ul>
-                                    <div class="grid-menu grid-menu-2col">
-                                        <div class="g-0 row">
-                                            <div class="col-sm-6">
-                                                <button class="btn-icon-vertical btn-transition btn-transition-alt pt-2 pb-2 btn btn-outline-warning">
-                                                    <i class="pe-7s-chat icon-gradient bg-amy-crisp btn-icon-wrapper mb-2"></i>
-                                                    Message Inbox
-                                                </button>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <button class="btn-icon-vertical btn-transition btn-transition-alt pt-2 pb-2 btn btn-outline-danger">
-                                                    <i class="pe-7s-ticket icon-gradient bg-love-kiss btn-icon-wrapper mb-2"></i>
-                                                    <b>Support Tickets</b>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <ul class="nav flex-column">
-                                        <li class="nav-item-divider nav-item"></li>
-                                        <li class="nav-item-btn text-center nav-item">
-                                            <button class="btn-wide btn btn-primary btn-sm"> Open Messages</button>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="widget-content-left  ms-3 header-user-info">
-                            <div class="widget-heading"> Alina Mclourd</div>
+                            <div class="widget-heading"> {{ Auth::user()->name }}</div>
                             <div class="widget-subheading"> VP People Manager</div>
                         </div>
-{{--                        <div class="widget-content-right header-user-info ms-3">--}}
-{{--                            <button type="button" class="btn-shadow p-1 btn btn-primary btn-sm show-toastr-example">--}}
-{{--                                <i class="fa text-white fa-calendar pe-1 ps-1"></i>--}}
-{{--                            </button>--}}
-{{--                        </div>--}}
                     </div>
                 </div>
             </div>
@@ -842,207 +627,6 @@
 {{--                                </span>--}}
 {{--                </button>--}}
 {{--            </div>--}}
-        </div>
-    </div>
-</div>
-<div class="ui-theme-settings">
-    <button type="button" id="TooltipDemo" class="btn-open-options btn btn-warning">
-        <i class="fa fa-cog fa-w-16 fa-spin fa-2x"></i>
-    </button>
-    <div class="theme-settings__inner">
-        <div class="scrollbar-container">
-            <div class="theme-settings__options-wrapper">
-                <h3 class="themeoptions-heading">Layout Options</h3>
-                <div class="p-3">
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <div class="widget-content p-0">
-                                <div class="widget-content-wrapper">
-                                    <div class="widget-content-left me-3">
-                                        <div class="switch has-switch switch-container-class" data-class="fixed-header">
-                                            <div class="switch-animate switch-on">
-                                                <input type="checkbox" checked
-                                                       data-toggle="toggle" data-onstyle="success">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="widget-content-left">
-                                        <div class="widget-heading">Fixed Header</div>
-                                        <div class="widget-subheading">Makes the header top fixed, always visible!</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="widget-content p-0">
-                                <div class="widget-content-wrapper">
-                                    <div class="widget-content-left me-3">
-                                        <div class="switch has-switch switch-container-class" data-class="fixed-sidebar">
-                                            <div class="switch-animate switch-on">
-                                                <input type="checkbox" checked
-                                                       data-toggle="toggle" data-onstyle="success">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="widget-content-left">
-                                        <div class="widget-heading">Fixed Sidebar</div>
-                                        <div class="widget-subheading">Makes the sidebar left fixed, always visible!</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="widget-content p-0">
-                                <div class="widget-content-wrapper">
-                                    <div class="widget-content-left me-3">
-                                        <div class="switch has-switch switch-container-class" data-class="fixed-footer">
-                                            <div class="switch-animate switch-off">
-                                                <input type="checkbox" data-toggle="toggle" data-onstyle="success">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="widget-content-left">
-                                        <div class="widget-heading">Fixed Footer</div>
-                                        <div class="widget-subheading">Makes the app footer bottom fixed, always visible!</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <h3 class="themeoptions-heading">
-                    <div> Header Options</div>
-                    <button type="button" class="btn-pill btn-shadow btn-wide ms-auto btn btn-focus btn-sm switch-header-cs-class" data-class="">
-                        Restore Default
-                    </button>
-                </h3>
-                <div class="p-3">
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <h5 class="pb-2">Choose Color Scheme</h5>
-                            <div class="theme-settings-swatches">
-                                <div class="swatch-holder bg-primary switch-header-cs-class" data-class="bg-primary header-text-light"></div>
-                                <div class="swatch-holder bg-secondary switch-header-cs-class" data-class="bg-secondary header-text-light"></div>
-                                <div class="swatch-holder bg-success switch-header-cs-class" data-class="bg-success header-text-light"></div>
-                                <div class="swatch-holder bg-info switch-header-cs-class" data-class="bg-info header-text-light"></div>
-                                <div class="swatch-holder bg-warning switch-header-cs-class" data-class="bg-warning header-text-dark"></div>
-                                <div class="swatch-holder bg-danger switch-header-cs-class" data-class="bg-danger header-text-light"></div>
-                                <div class="swatch-holder bg-light switch-header-cs-class" data-class="bg-light header-text-dark"></div>
-                                <div class="swatch-holder bg-dark switch-header-cs-class" data-class="bg-dark header-text-light"></div>
-                                <div class="swatch-holder bg-focus switch-header-cs-class" data-class="bg-focus header-text-light"></div>
-                                <div class="swatch-holder bg-alternate switch-header-cs-class" data-class="bg-alternate header-text-light"></div>
-                                <div class="divider"></div>
-                                <div class="swatch-holder bg-vicious-stance switch-header-cs-class" data-class="bg-vicious-stance header-text-light"></div>
-                                <div class="swatch-holder bg-midnight-bloom switch-header-cs-class" data-class="bg-midnight-bloom header-text-light"></div>
-                                <div class="swatch-holder bg-night-sky switch-header-cs-class" data-class="bg-night-sky header-text-light"></div>
-                                <div class="swatch-holder bg-slick-carbon switch-header-cs-class" data-class="bg-slick-carbon header-text-light"></div>
-                                <div class="swatch-holder bg-asteroid switch-header-cs-class" data-class="bg-asteroid header-text-light"></div>
-                                <div class="swatch-holder bg-royal switch-header-cs-class" data-class="bg-royal header-text-light"></div>
-                                <div class="swatch-holder bg-warm-flame switch-header-cs-class" data-class="bg-warm-flame header-text-dark"></div>
-                                <div class="swatch-holder bg-night-fade switch-header-cs-class" data-class="bg-night-fade header-text-dark"></div>
-                                <div class="swatch-holder bg-sunny-morning switch-header-cs-class" data-class="bg-sunny-morning header-text-dark"></div>
-                                <div class="swatch-holder bg-tempting-azure switch-header-cs-class" data-class="bg-tempting-azure header-text-dark"></div>
-                                <div class="swatch-holder bg-amy-crisp switch-header-cs-class" data-class="bg-amy-crisp header-text-dark"></div>
-                                <div class="swatch-holder bg-heavy-rain switch-header-cs-class" data-class="bg-heavy-rain header-text-dark"></div>
-                                <div class="swatch-holder bg-mean-fruit switch-header-cs-class" data-class="bg-mean-fruit header-text-dark"></div>
-                                <div class="swatch-holder bg-malibu-beach switch-header-cs-class" data-class="bg-malibu-beach header-text-light"></div>
-                                <div class="swatch-holder bg-deep-blue switch-header-cs-class" data-class="bg-deep-blue header-text-dark"></div>
-                                <div class="swatch-holder bg-ripe-malin switch-header-cs-class" data-class="bg-ripe-malin header-text-light"></div>
-                                <div class="swatch-holder bg-arielle-smile switch-header-cs-class" data-class="bg-arielle-smile header-text-light"></div>
-                                <div class="swatch-holder bg-plum-plate switch-header-cs-class" data-class="bg-plum-plate header-text-light"></div>
-                                <div class="swatch-holder bg-happy-fisher switch-header-cs-class" data-class="bg-happy-fisher header-text-dark"></div>
-                                <div class="swatch-holder bg-happy-itmeo switch-header-cs-class" data-class="bg-happy-itmeo header-text-light"></div>
-                                <div class="swatch-holder bg-mixed-hopes switch-header-cs-class" data-class="bg-mixed-hopes header-text-light"></div>
-                                <div class="swatch-holder bg-strong-bliss switch-header-cs-class" data-class="bg-strong-bliss header-text-light"></div>
-                                <div class="swatch-holder bg-grow-early switch-header-cs-class" data-class="bg-grow-early header-text-light"></div>
-                                <div class="swatch-holder bg-love-kiss switch-header-cs-class" data-class="bg-love-kiss header-text-light"></div>
-                                <div class="swatch-holder bg-premium-dark switch-header-cs-class" data-class="bg-premium-dark header-text-light"></div>
-                                <div class="swatch-holder bg-happy-green switch-header-cs-class" data-class="bg-happy-green header-text-light"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <h3 class="themeoptions-heading">
-                    <div>Sidebar Options</div>
-                    <button type="button" class="btn-pill btn-shadow btn-wide ms-auto btn btn-focus btn-sm switch-sidebar-cs-class" data-class="">
-                        Restore Default
-                    </button>
-                </h3>
-                <div class="p-3">
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <h5 class="pb-2">Choose Color Scheme</h5>
-                            <div class="theme-settings-swatches">
-                                <div class="swatch-holder bg-primary switch-sidebar-cs-class" data-class="bg-primary sidebar-text-light"></div>
-                                <div class="swatch-holder bg-secondary switch-sidebar-cs-class" data-class="bg-secondary sidebar-text-light"></div>
-                                <div class="swatch-holder bg-success switch-sidebar-cs-class" data-class="bg-success sidebar-text-dark"></div>
-                                <div class="swatch-holder bg-info switch-sidebar-cs-class" data-class="bg-info sidebar-text-dark"></div>
-                                <div class="swatch-holder bg-warning switch-sidebar-cs-class" data-class="bg-warning sidebar-text-dark"></div>
-                                <div class="swatch-holder bg-danger switch-sidebar-cs-class" data-class="bg-danger sidebar-text-light"></div>
-                                <div class="swatch-holder bg-light switch-sidebar-cs-class" data-class="bg-light sidebar-text-dark"></div>
-                                <div class="swatch-holder bg-dark switch-sidebar-cs-class" data-class="bg-dark sidebar-text-light"></div>
-                                <div class="swatch-holder bg-focus switch-sidebar-cs-class" data-class="bg-focus sidebar-text-light"></div>
-                                <div class="swatch-holder bg-alternate switch-sidebar-cs-class" data-class="bg-alternate sidebar-text-light"></div>
-                                <div class="divider"></div>
-                                <div class="swatch-holder bg-vicious-stance switch-sidebar-cs-class" data-class="bg-vicious-stance sidebar-text-light"></div>
-                                <div class="swatch-holder bg-midnight-bloom switch-sidebar-cs-class" data-class="bg-midnight-bloom sidebar-text-light"></div>
-                                <div class="swatch-holder bg-night-sky switch-sidebar-cs-class" data-class="bg-night-sky sidebar-text-light"></div>
-                                <div class="swatch-holder bg-slick-carbon switch-sidebar-cs-class" data-class="bg-slick-carbon sidebar-text-light"></div>
-                                <div class="swatch-holder bg-asteroid switch-sidebar-cs-class" data-class="bg-asteroid sidebar-text-light"></div>
-                                <div class="swatch-holder bg-royal switch-sidebar-cs-class" data-class="bg-royal sidebar-text-light"></div>
-                                <div class="swatch-holder bg-warm-flame switch-sidebar-cs-class" data-class="bg-warm-flame sidebar-text-dark"></div>
-                                <div class="swatch-holder bg-night-fade switch-sidebar-cs-class" data-class="bg-night-fade sidebar-text-dark"></div>
-                                <div class="swatch-holder bg-sunny-morning switch-sidebar-cs-class" data-class="bg-sunny-morning sidebar-text-dark"></div>
-                                <div class="swatch-holder bg-tempting-azure switch-sidebar-cs-class" data-class="bg-tempting-azure sidebar-text-dark"></div>
-                                <div class="swatch-holder bg-amy-crisp switch-sidebar-cs-class" data-class="bg-amy-crisp sidebar-text-dark"></div>
-                                <div class="swatch-holder bg-heavy-rain switch-sidebar-cs-class" data-class="bg-heavy-rain sidebar-text-dark"></div>
-                                <div class="swatch-holder bg-mean-fruit switch-sidebar-cs-class" data-class="bg-mean-fruit sidebar-text-dark"></div>
-                                <div class="swatch-holder bg-malibu-beach switch-sidebar-cs-class" data-class="bg-malibu-beach sidebar-text-light"></div>
-                                <div class="swatch-holder bg-deep-blue switch-sidebar-cs-class" data-class="bg-deep-blue sidebar-text-dark"></div>
-                                <div class="swatch-holder bg-ripe-malin switch-sidebar-cs-class" data-class="bg-ripe-malin sidebar-text-light"></div>
-                                <div class="swatch-holder bg-arielle-smile switch-sidebar-cs-class" data-class="bg-arielle-smile sidebar-text-light"></div>
-                                <div class="swatch-holder bg-plum-plate switch-sidebar-cs-class" data-class="bg-plum-plate sidebar-text-light"></div>
-                                <div class="swatch-holder bg-happy-fisher switch-sidebar-cs-class" data-class="bg-happy-fisher sidebar-text-dark"></div>
-                                <div class="swatch-holder bg-happy-itmeo switch-sidebar-cs-class" data-class="bg-happy-itmeo sidebar-text-light"></div>
-                                <div class="swatch-holder bg-mixed-hopes switch-sidebar-cs-class" data-class="bg-mixed-hopes sidebar-text-light"></div>
-                                <div class="swatch-holder bg-strong-bliss switch-sidebar-cs-class" data-class="bg-strong-bliss sidebar-text-light"></div>
-                                <div class="swatch-holder bg-grow-early switch-sidebar-cs-class" data-class="bg-grow-early sidebar-text-light"></div>
-                                <div class="swatch-holder bg-love-kiss switch-sidebar-cs-class" data-class="bg-love-kiss sidebar-text-light"></div>
-                                <div class="swatch-holder bg-premium-dark switch-sidebar-cs-class" data-class="bg-premium-dark sidebar-text-light"></div>
-                                <div class="swatch-holder bg-happy-green switch-sidebar-cs-class" data-class="bg-happy-green sidebar-text-light"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <h3 class="themeoptions-heading">
-                    <div>Main Content Options</div>
-                    <button type="button" class="btn-pill btn-shadow btn-wide ms-auto active btn btn-focus btn-sm">Restore Default</button>
-                </h3>
-                <div class="p-3">
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <h5 class="pb-2">Page Section Tabs</h5>
-                            <div class="theme-settings-swatches">
-                                <div role="group" class="mt-2 btn-group">
-                                    <button type="button" class="btn-wide btn-shadow btn-primary btn btn-secondary switch-theme-class" data-class="body-tabs-line"> Line</button>
-                                    <button type="button" class="btn-wide btn-shadow btn-primary active btn btn-secondary switch-theme-class" data-class="body-tabs-shadow"> Shadow</button>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <h5 class="pb-2">
-                                Light Color Schemes
-                            </h5>
-                            <div class="theme-settings-swatches">
-                                <div role="group" class="mt-2 btn-group">
-                                    <button type="button" class="btn-wide btn-shadow btn-primary active btn btn-secondary switch-theme-class" data-class="app-theme-white"> White Theme</button>
-                                    <button type="button" class="btn-wide btn-shadow btn-primary btn btn-secondary switch-theme-class" data-class="app-theme-gray"> Gray Theme</button>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
         </div>
     </div>
 </div>
