@@ -34,7 +34,7 @@
             <ul class="vertical-nav-menu">
                 <li class="app-sidebar__heading">Menu</li>
                 <li class="mm-active mm-show">
-                    <a href="{{ route('dashboard') }}" class=" @if(request()->routeIs('dashboard')) mm-active @endif">
+                    <a href="{{ route('dashboard') }}" class="@if(request()->routeIs('dashboard')) mm-active @endif">
                         <i class="metismenu-icon pe-7s-rocket"></i>
                         Dashboards
 {{--                        <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>--}}
@@ -143,19 +143,19 @@
 
                 <li class="app-sidebar__heading">My Account</li>
                 <li>
-                    <a href="widgets-chart-boxes.html">
+                    <a href="{{ route('profile.show') }}" class="@if(request()->routeIs('profile.show')) mm-active @endif">
                         <i class="metismenu-icon lnr-user"></i>
                         My Profile
                     </a>
                 </li>
                 <li>
-                    <a href="widgets-profile-boxes.html">
+                    <a href="{{ route('companies.create') }}" class="@if(request()->routeIs('companies.create')) mm-active @endif">
                         <i class="metismenu-icon pe-7s-id"></i>
                         Company Profile
                     </a>
                 </li>
                 <li>
-                    <a href="widgets-chart-boxes-2.html">
+                    <a href="{{ route('profile.show',['#password']) }}" class="@if(request()->routeIs('profile.show')) mm-active @endif">
                         <i class="metismenu-icon lnr-sync"></i>
                         Change Password
                     </a>
