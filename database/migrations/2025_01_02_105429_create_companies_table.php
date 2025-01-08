@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('companies', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->constrained()->onDelete('cascade');
             // Basic Information
             $table->string('name');
             $table->string('name_arabic')->nullable();
@@ -39,8 +40,8 @@ return new class extends Migration
             $table->string('article_no')->nullable();                 // KE
             $table->string('business_type_english')->nullable();      // Riyadh - Dammam Road 2591
             $table->string('business_type_arabic')->nullable();       // الرياض , --٢٥٩١ , طريق الدمام
-            $table->string('business_description_english')->nullable(); // Al Yarmouk 8194
-            $table->string('business_description_arabic')->nullable(); // حي اليرموك , ٨١٩٤
+            $table->text('business_description_english')->nullable(); // Al Yarmouk 8194
+            $table->text('business_description_arabic')->nullable(); // حي اليرموك , ٨١٩٤
 
             // Invoice Settings
             $table->string('invoice_side_arabic')->nullable();        // From form
@@ -61,6 +62,10 @@ return new class extends Migration
 
             // Type Information
             $table->string('company_type')->default('customer');     // customer/vendor
+
+            // New Fields for File Uploads
+            $table->string('company_logo')->nullable();              // Path to company logo
+            $table->string('company_stamp')->nullable();             // Path to company stamp
 
             // System Fields
             $table->softDeletes();

@@ -40,6 +40,56 @@
 {{--                        <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>--}}
                     </a>
                 </li>
+
+
+                <li>
+                    <a href="#">
+                        <i class="metismenu-icon pe-7s-config"></i>
+                        Administration
+                        <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
+                    </a>
+                    <ul>
+                        <li @if(request()->routeIs('categories.*')) class="mm-active" @endif>
+                            <a href="{{ route('categories.index') }}">
+                                <i class="metismenu-icon"></i>
+                                Categories
+                            </a>
+                        </li>
+                        <li @if(request()->routeIs('items.*')) class="mm-active" @endif>
+                            <a href="{{ route('items.index') }}">
+                                <i class="metismenu-icon"></i>
+                                Items
+                            </a>
+                        </li>
+                        <li @if(request()->routeIs('customers.*')) class="mm-active" @endif>
+                            <a href="{{ route('customers.index') }}">
+                                <i class="metismenu-icon"></i>
+                                Customers
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+{{--                <li>--}}
+{{--                    <a href="{{ route('customers.index') }}" class="@if(request()->routeIs('customers.*')) mm-active @endif">--}}
+{{--                        <i class="metismenu-icon pe-7s-users"></i>--}}
+{{--                        Customers (Buyers)--}}
+{{--                    </a>--}}
+{{--                </li>--}}
+
+{{--                <li>--}}
+{{--                    <a href="{{ route('items.index') }}" class="@if(request()->routeIs('items.*')) mm-active @endif">--}}
+{{--                        <i class="metismenu-icon pe-7s-users"></i>--}}
+{{--                        Items--}}
+{{--                    </a>--}}
+{{--                </li>--}}
+
+{{--                <li>--}}
+{{--                    <a href="{{ route('items.store') }}" class="@if(request()->routeIs('items.*')) mm-active @endif">--}}
+{{--                        <i class="metismenu-icon pe-7s-users"></i>--}}
+{{--                        Items--}}
+{{--                    </a>--}}
+{{--                </li>--}}
                 <li>
                     <a href="#">
                         <i class="metismenu-icon pe-7s-browser"></i>
@@ -148,12 +198,16 @@
                         My Profile
                     </a>
                 </li>
-                <li>
-                    <a href="{{ route('companies.create') }}" class="@if(request()->routeIs('companies.create')) mm-active @endif">
-                        <i class="metismenu-icon pe-7s-id"></i>
-                        Company Profile
-                    </a>
-                </li>
+
+                @if(!empty(Auth::user()->company))
+                    <li>
+                        <a href="{{ route('companies.edit', Auth::user()->company->id) }}" class="@if(request()->routeIs('companies.edit')) mm-active @endif">
+                            <i class="metismenu-icon pe-7s-id"></i>
+                            Company Profile
+                        </a>
+                    </li>
+                @endif
+
                 <li>
                     <a href="{{ route('profile.show',['#password']) }}" class="@if(request()->routeIs('profile.show')) mm-active @endif">
                         <i class="metismenu-icon lnr-sync"></i>

@@ -11,10 +11,60 @@ class Company extends Model
     use HasFactory;
 
     protected $fillable = [
-        'name', 'vat_number', 'cr_number', 'address', 'city', 'country',
-        'phone', 'email', 'website', 'iban', 'bank_name', 'company_type'
-    ];
+        // Basic Information
+        'user_id',
+        'name',
+        'name_arabic',
+        'email',
 
+        // Registration Numbers
+        'cr_number',
+        'vat_number',
+        'vat_number_arabic',
+
+        // Contact Information
+        'cell',
+        'mobile',
+        'phone',
+
+        // Location Information
+        'address',
+        'city',
+        'country',
+
+        // Business Details
+        'customer_industry',
+        'sale_type',
+        'article_no',
+        'business_type_english',
+        'business_type_arabic',
+        'business_description_english',
+        'business_description_arabic',
+
+        // Invoice Settings
+        'invoice_side_arabic',
+        'invoice_side_english',
+        'english_description',
+        'arabic_description',
+        'vat_percentage',
+        'apply_discount_type',
+        'language',
+        'show_email_on_invoice',
+
+        // Website Information
+        'website',
+
+        // Banking Information
+        'bank_name',
+        'iban',
+
+        // Type Information
+        'company_type',
+
+        // File Uploads
+        'company_logo',
+        'company_stamp'
+    ];
     public function contacts()
     {
         return $this->hasMany(Contact::class);

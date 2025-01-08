@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CompanyController;
@@ -22,12 +24,9 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified',
     Route::get('/dashboard',[DashboardController::class,'dashboard'])->name('dashboard');
 });
 
-
-
-
 Route::middleware(['auth'])->group(function () {
     Route::resources([
-        'companies' => CompanyController::class,
+        'customers' => CustomerController::class,
         'contacts' => ContactController::class,
         'items' => ItemController::class,
         'quotations' => QuotationController::class,
@@ -35,6 +34,11 @@ Route::middleware(['auth'])->group(function () {
         'invoices' => InvoiceController::class,
         'payments' => PaymentController::class,
     ]);
+
+    Route::resource('companies', CompanyController::class);
+    Route::resource('categories', CategoryController::class);
+    Route::resource('items', ItemController::class);
+
 
     Route::apiResource('quotation-items', QuotationItemController::class)->except(['index', 'show']);
     Route::apiResource('delivery-note-items', DeliveryNoteItemController::class)->except(['index', 'show']);

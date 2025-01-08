@@ -13,11 +13,14 @@ return new class extends Migration
     {
         Schema::create('items', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->nullable()->constrained()->onDelete('cascade');
+            $table->foreignId('company_id')->nullable()->constrained()->onDelete('cascade');
             $table->string('code')->nullable();
-            $table->string('name');
+            $table->string('name')->nullable();;
             $table->string('description')->nullable();
-            $table->string('category')->nullable();
+            $table->foreignId('category_id')->nullable()->constrained()->onDelete('cascade');
             $table->string('unit')->default('Pcs');
+            $table->string('quantity')->default(0);
             $table->decimal('unit_price', 10, 2)->default(0);
             $table->integer('stock')->default(0);
             $table->boolean('is_active')->default(true);
